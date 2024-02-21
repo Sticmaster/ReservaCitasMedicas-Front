@@ -1,0 +1,71 @@
+{
+    "pacientes": [
+      {
+        "idPaciente": 1,
+        "nombre": "Juan",
+        "apellido": "Pérez",
+        "edad": 30,
+        "foto_perfil": "juan.jpg",
+        "correo": "juan@example.com",
+        "medicamento": "Aspirina",
+        "alergia": "Ninguna",
+        "actividad": "Correr"
+      },
+      {
+        "idPaciente": 2,
+        "nombre": "María",
+        "apellido": "Gómez",
+        "edad": 25,
+        "foto_perfil": "maria.jpg",
+        "correo": "maria@example.com",
+        "medicamento": "Paracetamol",
+        "alergia": "Polen",
+        "actividad": "Nadar"
+      }
+    ],
+    "medicos": [
+      {
+        "idMedico": 1,
+        "nombre": "Dr. Carlos",
+        "apellido": "Rodríguez",
+        "edad": 40,
+        "foto_perfil": "carlos.jpg",
+        "telefono": "+123456789",
+        "especialidad": "Cardiología",
+        "categoria": "Especialista",
+        "actividad": "Conferencias médicas"
+      },
+      {
+        "idMedico": 2,
+        "nombre": "Dra. Laura",
+        "apellido": "García",
+        "edad": 35,
+        "foto_perfil": "laura.jpg",
+        "telefono": "+987654321",
+        "especialidad": "Dermatología",
+        "categoria": "Especialista",
+        "actividad": "Investigación médica"
+      }
+    ],
+    "reservas": [
+      {
+        "descripcion": "Consulta general",
+        "fecha": "2024-03-01",
+        "hora": "10:00 AM",
+        "costo": 50,
+        "estado": "Confirmada",
+        "idPaciente": 1,
+        "idMedico": 1
+      },
+      {
+        "descripcion": "Chequeo dermatológico",
+        "fecha": "2024-03-02",
+        "hora": "02:30 PM",
+        "costo": 70,
+        "estado": "Pendiente",
+        "idPaciente": 2,
+        "idMedico": 2
+      }
+    ]
+  }
+  
