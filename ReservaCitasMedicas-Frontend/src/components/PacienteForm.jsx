@@ -37,7 +37,7 @@ const PacienteForm = ({ onPatientAdded }) => {
 
   return (
     <div>
-      <BootstrapForm onSubmit={handleSubmit}>
+      <BootstrapForm className='mt-4' onSubmit={handleSubmit}>
         <BootstrapForm.Group controlId="nombre">
           <BootstrapForm.Label>Nombre</BootstrapForm.Label>
           <BootstrapForm.Control
@@ -48,7 +48,7 @@ const PacienteForm = ({ onPatientAdded }) => {
           />
         </BootstrapForm.Group>
 
-        <BootstrapForm.Group controlId="apellido">
+        <BootstrapForm.Group className='mt-2' controlId="apellido">
           <BootstrapForm.Label>Apellido</BootstrapForm.Label>
           <BootstrapForm.Control
             type="text"
@@ -58,7 +58,7 @@ const PacienteForm = ({ onPatientAdded }) => {
           />
         </BootstrapForm.Group>
 
-        <BootstrapForm.Group controlId="edad">
+        <BootstrapForm.Group className='mt-2' controlId="edad">
           <BootstrapForm.Label>Edad</BootstrapForm.Label>
           <BootstrapForm.Control
             type="number"
@@ -68,7 +68,7 @@ const PacienteForm = ({ onPatientAdded }) => {
           />
         </BootstrapForm.Group>
 
-        <Button variant="primary" type="submit">
+        <Button variant="primary" type="submit" className='mt-2'>
           Añadir Paciente
         </Button>
       </BootstrapForm>
