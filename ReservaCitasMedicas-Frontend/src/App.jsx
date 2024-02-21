@@ -70,7 +70,12 @@ const App = () => {
 
 
 const Home = () => {
-  return <h2>Bienvenido a Citas Médicas</h2>;
+  return (
+    <div>
+      <h2>Bienvenido a Citas Médicas</h2>
+      <img src="citas-medicas.jpg" alt="Citas Médicas"  width={"500px"}/>
+    </div>
+  );
 };
 
 const Pacientes = () => {
